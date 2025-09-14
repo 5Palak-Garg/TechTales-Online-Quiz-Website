@@ -1,0 +1,166 @@
+vv<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C Cheatsheet</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="container">
+  <div class="content">
+    <section class="top_section">
+      <div class="image_container">
+        <img src="data:image/png;base64,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" alt="tribute"/>
+      </div>
+      <div><h1>C++ Cheatsheet</h1>
+      <H4></H4></div>
+    </section>
+    <section class="biography_section">
+  <h3>About C++</h3>
+  <ul>
+    <li>C++ is a general-purpose programming language developed by Bjarne Stroustrup in the early 1980s as an extension of the C language. It is often called “C with classes” because it retains the efficiency and low-level features of C while adding powerful features like object-oriented programming (OOP), templates, exception handling, and the Standard Template Library (STL).</li>
+    <li>Being a multi-paradigm language, C++ supports procedural, object-oriented, and generic programming, making it flexible for different types of applications.</li>
+    <li>The language is widely used because it combines the speed and hardware-level control of C with higher-level abstractions that simplify large-scale software development.</li>
+    <li>Through OOP concepts such as encapsulation, inheritance, polymorphism, and abstraction, C++ allows modularity, code reusability, and better organization. It also provides strong memory management using new and delete, supports function and operator overloading, and enables generic programming with templates</li>
+    <li>C++ has a wide range of applications, including system software, operating systems, game development, embedded systems, GUI-based applications, and high-performance computing</li>
+  <li>Its main advantages are efficiency, flexibility, and portability, though it also has challenges such as complexity and the risk of errors in manual memory management.</li>
+  <li>Despite newer languages, C++ remains one of the most important and widely used programming languages in the world due to its balance of performance and abstraction.</li>
+  </ul>
+</section>
+    <section class="about_section">
+
+
+      <div class="about_section_1">
+        <div class="inside_div" style="background-color: #1A237E;color:white;"><h2><b>1.Basic Program Structure</b></h2>
+        <p>C++ programs begin with header files like iostream for input and output operations. Every program has a main() function, which is the entry point. Output is displayed using cout, while input is taken using cin. Statements are ended with a semicolon, and code blocks are enclosed in curly braces {}. C++ also supports namespaces, where the standard one (std) contains most built-in functions and objects.</p>
+        <h5>Programs start with main() function.</h5>
+        <h5>Uses header files like iostream for I/O.</h5>
+        <h5>Namespace (std) avoids naming conflicts.</h5></div>
+
+        <div class="inside_div" style="background-color: #37474F;color:white;"><h2><b>2. Data Types</b></h2>
+        <p>C++ supports multiple data types to represent different kinds of values. The common ones are int for integers, float and double for decimal numbers, char for single characters, string for text, and bool for true/false values. Variables must be declared before use, and C++ is a statically typed language, meaning the type of a variable cannot change during execution.</p>
+        <h5>int → stores integers.</h5>
+        <h5>float → stores decimal numbers (single precision).</h5>
+        <h5>double → stores larger decimal numbers (double precision).</h5>
+        <h5>char → stores single characters.</h5>
+        <h5>void → means "no value".</h5></div>
+
+        <div class="inside_div" style="background-color: #00695C;color:white;"><h2><b>3. Variables and Constants</b></h2>
+         <p>Variables in C++ are named memory locations used to store data that can be modified during program execution. They must be declared with a data type such as int, float, char, or string, which defines the kind of values they hold. Constants, on the other hand, are fixed values that cannot be changed once defined. They can be declared using the const keyword or #define preprocessor directive. Using constants improves code readability and ensures important values remain unchanged throughout the program.</p>
+        <h5>Variable → a storage location with a name, whose value can change.</h5>
+        <h5>Constant → fixed value that cannot be modified (declared using const).</h5></div>
+        </div>
+
+
+     <div class="about_section_2">
+      <div class="inside_div" style="background-color: #37474F;color:white;"><h2><b>4. Input and Output</b></h2>
+         <p>C++ uses the standard input and output streams provided in the iostream library. The cout object, combined with the insertion operator (<<), is used for displaying output to the console, while the cin object with the extraction operator (>>) is used to take input from the user. For handling multiple inputs in a single line, values are separated by spaces. Additionally, the getline() function is available to read an entire line of text including spaces, which makes it useful for processing strings.</p>
+        <h5>cin → input.</h5>
+        <h5>cout → output.</h5>
+        <h5>Uses << and >> operators.</h5></div>
+
+         <div class="inside_div" style="background-color: #00695C;color:white;";"><h2><b>5. Operators</b></h2>
+         <p>Operators are special symbols used to perform operations on data. Arithmetic operators like +, -, *, /, and % handle mathematical calculations. Relational operators such as ==, !=, >, <, >=, and <= are used for comparison. Logical operators &&, ||, and ! are used for decision making. Assignment operators (=, +=, -=, etc.) assign values to variables, while increment and decrement operators (++ and --) increase or decrease values.</p>
+        <h5>Arithmetic → addition, subtraction, multiplication, division, modulus.</h5>
+        <h5>Relational → comparisons (greater, smaller, equal, not equal).</h5>
+        <h5>Logical → AND, OR, NOT.</h5>
+        <h5>Assignment → assigns or updates values.</h5>
+        <h5>Increment/Decrement → increases or decreases value by 1.</h5></div>
+
+        <div class="inside_div" style="background-color: #1A237E;color:white;";"><h2><b>6.Conditional Statements</b></h2>
+         <p>Control statements allow the program to make decisions and repeat actions. The if-else statement executes code based on conditions, while the switch statement selects one case from many options. Loops are used for repetition: for is used when the number of iterations is known, while continues until a condition becomes false, and do-while ensures the loop runs at least once before checking the condition.</p>
+        <h5>if → executes when condition is true.</h5>
+        <h5>if-else → executes one block if true, another if false.</h5>
+        <h5>else if ladder → multiple conditions.</h5></div>
+      </div>
+
+
+ <div class="about_section_3">
+  <div class="inside_div" style="background-color: #1A237E;color:white;"><h2><b>7. Loops</b></h2>
+         <p>Loops in C++ allow repeating a block of code multiple times until a condition is satisfied. The for loop is commonly used when the number of iterations is known in advance. The while loop executes as long as the condition remains true, making it useful for indeterminate iterations. The do-while loop ensures the code runs at least once before checking the condition, which is helpful in menu-driven programs. Loops are essential for tasks like iterating over arrays, performing calculations, and handling repetitive logic efficiently.</p>
+        <h5>for loop → runs a block for a fixed number of times.</h5>
+        <h5>while loop → runs as long as condition is true.</h5>
+        <h5>do-while loop → runs at least once, then checks condition.</h5></div>
+
+        <div class="inside_div" style="background-color: #37474F;color:white;"><h2><b>8.Functions</b></h2>
+         <p>Functions are blocks of reusable code that perform specific tasks. They can accept parameters and return values. C++ supports both user-defined and built-in functions. Functions promote modularity and reusability in programming. Function overloading, a feature of C++, allows multiple functions with the same name but different parameter lists.</p>
+        <h5>Can return values or be void.</h5>
+        <h5>Default arguments → values used if none passed.</h5>
+        <h5>Inline functions → faster execution.</h5></div>
+         
+        <div class="inside_div" style="background-color: #00695C;color:white;"><h2><b>9.Arrays</b></h2>
+        <p>Arrays are collections of elements of the same type stored in contiguous memory. They allow quick access to elements using indexes.Arrays are useful for fixed-size collections, while strings are widely used for text processing.</p>
+        <h5>collections of elements of the same type stored in contiguous memory</h5>
+        <h5>useful for fixed-size collections</h5></div>
+        </div>
+
+
+ <div class="about_section_4">
+  <div class="inside_div" style="background-color: #37474F;color:white;"><h2><b>10.Strings</b></h2>
+        <p>Strings, although technically character arrays, are handled using the string class in C++, which provides built-in methods like size(), substr(), and concatenation.</p>
+        <h5>provides built-in methods like size(), substr(), and concatenation</h5>
+        <h5>provides built-in methods like size(), substr(), and concatenation</h5></div>
+
+        <div class="inside_div" style="background-color: #00695C;color:white;"><h2><b>11.Memory Management</b></h2>
+         <p>Memory management in C++ can be done both automatically and manually. Local variables are stored in stack memory, and objects created dynamically are stored in heap memory. The new operator is used to allocate memory at runtime, while the delete operator is used to free that memory to prevent memory leaks. For arrays, new[] and delete[] are used. Proper memory management is important in C++ because it does not have garbage collection like some higher-level languages, so programmers must manage memory explicitly.</p>
+        <h5>new → allocate memory.</h5>
+        <h5>delete → free memory.</h5>
+        <h5>Replaces C’s malloc and free.</h5></div>
+        
+        <div class="inside_div" style="background-color: #1A237E;color:white;"><h2><b>12. Pointers & References</b></h2>
+         <p>Pointers are variables that store the memory address of other variables. They allow direct manipulation of memory, which is powerful but requires careful handling. Using the & operator, we get the address of a variable, and with the * operator, we access the value stored at that address (dereferencing). Pointers are heavily used in dynamic memory allocation, arrays, and data structures like linked lists.</p>
+        <h5>Pointer → variable that stores address of another variable.</h5>
+        <h5>Reference → alias for a variable, must be initialized at declaration.</h5>
+        <h5>Supports pointers to objects.</h5></div>
+        </div>
+
+
+         <div class="about_section_5">
+          <div class="inside_div" style="background-color: #1A237E;color:white;"><h2><b>13.Templates</b></h2>
+         <p>Templates in C++ allow writing generic and reusable code. Instead of creating multiple versions of a function or class for different data types, templates let us define one version that works with any type. Function templates make functions type-independent, while class templates are used to design generic data structures like stacks, queues, or linked lists. This feature is the foundation of the Standard Template Library (STL) and plays a crucial role in making C++ highly flexible and powerful.</p>
+        <h5>Function template → generic functions.</h5>
+        <h5>Class template → generic classes.</h5>
+        <h5>Allows type-independent programming.</h5></div>
+         
+        <div class="inside_div" style="background-color: #37474F;color:white;"><h2><b>14.Exception Handling</b></h2>
+        <p>Exception handling in C++ provides a way to manage runtime errors gracefully without crashing the program. It uses the keywords try, catch, and throw. Code that may generate an error is placed inside the try block, and if an exception occurs, it is thrown using the throw keyword. The error is then caught and handled in the catch block. This mechanism is useful for dealing with errors like invalid inputs, division by zero, or file handling failures, ensuring the program runs smoothly under unexpected conditions.</p>
+        <h5>Uses try, catch, throw.</h5>
+        <h5>Helps handle runtime errors gracefully.</h5></div>
+        
+        <div class="inside_div" style="background-color: #00695C;color:white;"><h2><b>15.STL (Standard Template Library)</b></h2>
+         <p>The STL is a collection of generic classes and functions that save time in implementing common data structures and algorithms. It includes containers like vectors (dynamic arrays), sets (unique sorted values), maps (key-value pairs), and sequences like stacks and queues. Iterators are used to traverse elements, and algorithms like sort, find, and reverse make operations easier. STL is widely used in competitive programming for efficiency.</p>
+        <h5>Containers → vector, list, deque, set, map, stack, queue.</h5>
+        <h5>Iterators → behave like pointers for traversing containers.</h5>
+        <h5>Algorithms → sort, search, reverse, etc.</h5></div>
+        </div>
+
+
+       <div class="about_section_6">
+        <div class="inside_div" style="background-color: #37474F;color:white;"><h2><b>16..Object-Oriented Programming (OOP)</b></h2>
+        <p>OOP in C++ introduces classes and objects. A class is a blueprint that defines attributes (data) and methods (functions), while an object is an instance of that class. Features like constructors initialize objects, and destructors clean them up. </p>
+        <h5>Class → blueprint,Object → instance.</h5>
+        <h5>Encapsulation → hide data using private/protected/public.</h5>
+        <h5>Abstraction → show essential features, hide implementation.</h5>
+         <h5>Inheritance → derive classes (single, multiple, multilevel, hybrid).</h5>
+        <h5>Polymorphism →(1.Compile-time → function/operator overloading.),(Run-time → virtual functions.)</h5></div>
+            
+        <div class="inside_div" style="background-color: #00695C;color:white;"><h2><b>17.Constructors & Destructors</b></h2>
+         <p>Constructors and destructors are special member functions of a class in C++. A constructor is automatically invoked when an object is created, and it is used to initialize the object’s attributes. Constructors can be overloaded, meaning a class can have multiple constructors with different parameter lists. A destructor, denoted by a tilde (~) before the class name, is automatically invoked when the object goes out of scope, and it is used to release resources or perform cleanup tasks. Together, they manage the lifecycle of an object effectively.</p>
+        <h5>Constructor → special method auto-called when object is created.</h5>
+        <h5>Destructor → special method auto-called when object is destroyed.</h5></div>
+
+        <div class="inside_div" style="background-color: #1A237E;color:white;"><h2><b>18.Files Handling</b></h2>
+        <p>C++ supports file input and output using the <fstream> library. Files can be opened in read mode (ifstream), write mode (ofstream), or both (fstream). Writing to files is done using the << operator, while reading uses >> or getline. File handling is useful for storing data permanently, reading configurations, and processing large datasets.</p>
+        <h5>Binary Files:Files can also be read/written in binary format using .read() and .write() functions for efficiency</h5>
+        <h5>useful for storing data permanently, reading configurations, and processing large datasets.</h5></div>
+         </div>
+        </section>
+
+<footer><p>Read more about C++ on Wikipedia</p>
+<a href="https://en.wikipedia.org/wiki/C%2B%2B">Wikipedia</a>
+</footer>
+  </div>
+</div>
+</body>
+</html>
